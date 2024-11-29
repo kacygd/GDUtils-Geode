@@ -240,7 +240,7 @@ class $modify(CCScheduler) { // GD Protocol part
                         break;
                     }
                     
-                    std::string url = "https://www.boomlings.com/database/getGJLevels21.php";
+                    std::string url = "https://cps.ps.fhgdps.com/database/getGJLevels21.php";
                     std::string fields = fmt::format("secret=Wmfd2893gb7&type=0&str={}", levelName);
 
                     geode::utils::web::WebRequest request = web::WebRequest();
