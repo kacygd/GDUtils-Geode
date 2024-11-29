@@ -301,7 +301,7 @@ void EventsPush::onClickBtn(CCObject* ret) {
         if (eventType == EventType::Rate) {
             if (events_layer->level->m_levelID == 0) return;
             
-            std::string const& url = "http://www.boomlings.com/database/getGJLevels21.php";
+            std::string const& url = "https://cps.ps.fhgdps.com/database/getGJLevels21.php";
             #ifndef GEODE_IS_MACOS
             int level_id = events_layer->level->m_levelID.value();
             #else // mac os 
